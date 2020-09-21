@@ -40,7 +40,7 @@ class SneakerDelete(LoginRequiredMixin, DeleteView):
   success_url = '/sneakers/'
 
 @login_required
-def sneakers_index(request): ########################################
+def sneakers_index(request): #####
   sneakers = Sneaker.objects.filter(user=request.user)
   return render(request, 'sneakers/index.html', { 'sneakers': sneakers })
 

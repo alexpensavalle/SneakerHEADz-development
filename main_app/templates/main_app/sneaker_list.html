@@ -3,7 +3,7 @@
 
 <h1>All Kicks</h1>
 
-{% for sneaker in sneakers %}
+{% for sneaker in sneaker_list %}
 <div class="card">
     <a href="{% url 'detail' sneaker.id %}">
         <div class="card-content">

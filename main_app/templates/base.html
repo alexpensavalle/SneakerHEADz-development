@@ -21,7 +21,7 @@
                 </ul>
                 <ul>
                     <li><a href="{% url 'about' %}">About</a></li>
-                    <li><a href="{% url 'view_all_index' %}">Browse All Kicks</a></li>
+                    <li><a href="{% url 'sneaker_list' %}">Browse All Kicks</a></li>
                     {% if user.is_authenticated %}
                     <li><a href="{% url 'sneakers_create' %}">Add a Pair</a></li>
                     <li><a href="{% url 'index' %}">View My Collection</a></li>
