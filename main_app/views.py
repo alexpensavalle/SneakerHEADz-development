@@ -23,9 +23,6 @@ def about(request):
 # This ListView is for later implementation of seeing an all users sneakers index **
 class SneakerList(ListView):
   model = Sneaker
-  def sneakers_index(self, request):
-    sneakers = Sneaker.objects
-    return render(request, 'sneakers/view_all_index.html', { 'sneakers': sneakers })
 
 class SneakerCreate(LoginRequiredMixin, CreateView):
   model = Sneaker
@@ -43,7 +40,7 @@ class SneakerDelete(LoginRequiredMixin, DeleteView):
   success_url = '/sneakers/'
 
 @login_required
-def sneakers_index(request):
+def sneakers_index(request): ########################################
   sneakers = Sneaker.objects.filter(user=request.user)
   return render(request, 'sneakers/index.html', { 'sneakers': sneakers })
 
