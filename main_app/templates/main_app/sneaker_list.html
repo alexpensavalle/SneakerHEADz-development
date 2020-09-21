@@ -1,9 +1,9 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<h1>My Kicks</h1>
+<h1>All Kicks</h1>
 
-{% for sneaker in sneakers %}
+{% for sneaker in sneaker_list %}
 <div class="card">
     <a href="{% url 'detail' sneaker.id %}">
         <div class="card-content">
@@ -13,6 +13,7 @@
             <p>Price (USD): {{ sneaker.price }}</p>
             <p>Release Date: {{ sneaker.release }}</p>
             <p>Condition: {{ sneaker.condition }}</p>
+            <!--Maybe add a field for the username/contact info to message who owns this shoe-->
         </div>
     </a>
 </div>
