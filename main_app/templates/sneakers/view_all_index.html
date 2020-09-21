@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<h1>My Kicks</h1>
+<h1>All Kicks</h1>
 
 {% for sneaker in sneakers %}
 <div class="card">
@@ -13,6 +13,7 @@
             <p>Price (USD): {{ sneaker.price }}</p>
             <p>Release Date: {{ sneaker.release }}</p>
             <p>Condition: {{ sneaker.condition }}</p>
+            <!--Maybe add a field for the user who owns this shoe-->
         </div>
     </a>
 </div>

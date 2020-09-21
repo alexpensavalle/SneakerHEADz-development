@@ -20,9 +20,12 @@ def home(request):
 def about(request):
   return render(request, 'about.html')
 
-# This ListView is for later implementation of seeing an all users sneakers index
+# This ListView is for later implementation of seeing an all users sneakers index **
 class SneakerList(ListView):
-    model = Sneaker
+  model = Sneaker
+  def sneakers_index(self, request):
+    sneakers = Sneaker.objects
+    return render(request, 'sneakers/view_all_index.html', { 'sneakers': sneakers })
 
 class SneakerCreate(LoginRequiredMixin, CreateView):
   model = Sneaker
