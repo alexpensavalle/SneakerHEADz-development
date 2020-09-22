@@ -20,7 +20,6 @@ def home(request):
 def about(request):
   return render(request, 'about.html')
 
-# This ListView is for later implementation of seeing an all users sneakers index **
 class SneakerList(ListView):
   model = Sneaker
 
@@ -40,7 +39,7 @@ class SneakerDelete(LoginRequiredMixin, DeleteView):
   success_url = '/sneakers/'
 
 @login_required
-def sneakers_index(request): #####
+def sneakers_index(request): 
   sneakers = Sneaker.objects.filter(user=request.user)
   return render(request, 'sneakers/index.html', { 'sneakers': sneakers })
 
@@ -75,3 +74,4 @@ def add_photo(request, sneaker_id):
         except:
             print('An error occurred uploading file to S3')
     return redirect('detail', sneaker_id=sneaker_id)
+

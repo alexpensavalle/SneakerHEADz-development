@@ -23,3 +23,5 @@ class Photo(models.Model):
     sneaker = models.ForeignKey(Sneaker, on_delete=models.CASCADE)
     def __str__(self):
         return f"Photo for sneaker_id: {self.sneaker_id} @{self.url}"
+    def get_absolute_url(self):
+        return reverse('detail', kwargs={'photo_id': self.id})

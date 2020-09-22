@@ -15,18 +15,21 @@
     {% for photo in sneaker.photo_set.all %}
     <img class="responsive-img card-panel" src="{{photo.url}}">
     {% empty %}
-    <div class="card-panel teal-text center-align">No Photos Uploaded</div>
+    <div class="card-panel black-text center-align">No Photos Uploaded</div>
     {% endfor %}
+    {% if user.id == sneaker.user.id %}
     <form action="{% url 'add_photo' sneaker.id %}" enctype="multipart/form-data" method="POST" class="card-panel">
         {% csrf_token %}
         <input type="file" name="photo-file">
         <br><br>
         <input type="submit" class="btn" value="Upload Photo">
     </form>
+
     <div class="card-action">
         <a href="{% url 'sneakers_update' sneaker.id %}">Edit</a>
         <a href="{% url 'sneakers_delete' sneaker.id %}">Delete</a>
     </div>
+    {% endif %}
 </div>
 
 
