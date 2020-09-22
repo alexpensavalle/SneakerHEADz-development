@@ -6,4 +6,62 @@ body {
   
   main {
     flex: 1 0 auto;
+    margin-left: 10px;
+    margin-right: 20px;
   }
+
+  .logo {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 30px;
+  }
+
+  h1 {
+    display: flex;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    color: #FF5722;
+  }
+
+  nav {
+    background-color: #FF5722;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  a {
+    color: black;
+  }
+
+  p {
+    color: blue;
+  }
+
+  .card .card-content {
+    padding: 24px;
+    border-radius: 0 0 2px 2px;
+    background-color: #F5F5F5;
+}
+
+  .header-img {
+    width: 100%;
+    height: auto;
+  }
+
+  /*@media screen and ( max-width: 1024px ) {
+    img.header-img { width: 100%; }
+  }
+  @media screen and ( min-width: 1025px) {
+    img.header-img { width: 920px;}
+  }
+    img.header-img { height: auto; }*/
+
+    .btn {
+      background-color: blue;
+    }
+
+    .black-text {
+      color: black;
+    }
