@@ -9,15 +9,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SneakerHEADz</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap">
     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
 </head>
-
 <body>
     <header>
         <nav>
             <div>
                 <ul>
-                    <li><a href="/">SneakerHEADz</a></li>
+                    <li><a class="logo" href="/">SneakerHEADz</a></li>
                 </ul>
                 <ul>
                     <li><a href="{% url 'about' %}">About</a></li>
@@ -34,6 +34,8 @@
             </div>
         </nav>
     </header>
+    
+    <img class="header-img" src="https://i.imgur.com/vB5eqa6.png">
     <main>
         {% block content %}
         {% endblock %}
