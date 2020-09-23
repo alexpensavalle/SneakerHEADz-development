@@ -33,10 +33,14 @@ class SneakerCreate(LoginRequiredMixin, CreateView):
 class SneakerUpdate(LoginRequiredMixin, UpdateView):
   model = Sneaker
   fields = ['name', 'style', 'colorway', 'price', 'release', 'condition', 'brand']
+  def get_queryset(self):
+        return super(SneakerUpdate, self).get_queryset().filter(user=self.request.user)
 
 class SneakerDelete(LoginRequiredMixin, DeleteView):
   model = Sneaker
   success_url = '/sneakers/'
+  def get_queryset(self):
+        return super(SneakerDelete, self).get_queryset().filter(user=self.request.user)
 
 @login_required
 def sneakers_index(request): 
