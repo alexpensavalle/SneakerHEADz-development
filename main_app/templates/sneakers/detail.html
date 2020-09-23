@@ -9,8 +9,9 @@
         <p>Style: {{ sneaker.style }}</p>
         <p>Colorway: {{ sneaker.colorway }}</p>
         <p>Price (USD): {{ sneaker.price }}</p>
-        <p>Release Date: {{ sneaker.release }}</p>
         <p>Condition: {{ sneaker.condition }}</p>
+        <p>Release Date: {{ sneaker.release }}</p>
+        <p>Collection: {{ sneaker.user }}</p>
     </div>
     {% for photo in sneaker.photo_set.all %}
     <img class="responsive-img card-panel" src="{{photo.url}}">
