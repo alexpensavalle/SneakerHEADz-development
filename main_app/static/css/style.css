@@ -8,6 +8,7 @@ body {
     flex: 1 0 auto;
     margin-left: 10px;
     margin-right: 20px;
+    /*background-image: url("https://i.imgur.com/Fnj0Dqs.png");*/
   }
 
   .logo {
@@ -64,4 +65,24 @@ body {
 
     .black-text {
       color: black;
+    }
+
+    .flex-container {
+      display: -webkit-flex; /* Safari */		
+      display: flex; /* Standard syntax */
+    }
+    
+    .flex-container .aboutimg {
+      display: flexbox;
+      background: #dbdfe5;
+      width: 100%;
+      /*-webkit-flex: 1; /* Safari */
+      /*-ms-flex: 1; /* IE 10 */
+      /*flex: 1; /* Standard syntax */
+    }
+
+    .flex-container .abouttext {
+      background: #ebebeb;
+      width: 50%;
+      margin-left: 10px;
     }
