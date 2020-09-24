@@ -4,8 +4,8 @@
 <h1>My Kicks</h1>
 
 {% for sneaker in sneakers %}
-<div class="card">
-    <a href="{% url 'detail' sneaker.id %}">
+<a href="{% url 'detail' sneaker.id %}">
+    <div class="card"> 
         <div class="card-panel">
             <div class="card-content">
                 <span class="card-title">{{ sneaker.name }}</span>
@@ -16,16 +16,16 @@
                 <p>Release Date: {{ sneaker.release }}</p>
             <!--<p>Collection: {{ sneaker.user }}</p>-->
             </div><!--end card-content-->
-            
-            {% for photo in sneaker.photo_set.all %}
-            <img class="responsive-img card-panel" src="{{photo.url}}">
-            {% empty %}
-            <div class="card-panel black-text center-align">No Photos Uploaded</div>        
-            {% endfor %}
-            
-        </div><!--end card-panel--> 
-    </a>
-</div><!--end card-->
+        </div><!--end card-panel-->     
+        
+        {% for photo in sneaker.photo_set.all %}
+        <img class="responsive-img card-panel" src="{{photo.url}}">
+        {% empty %}
+        <div class="card-panel black-text center-align">No Photos Uploaded</div>        
+        {% endfor %}
+    
+    </div><!--end card-->
+</a>
 {% endfor %}
 
 
