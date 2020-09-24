@@ -23,6 +23,26 @@ body {
     color: #FF5722;
   }
 
+  label {
+    display: flex;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 20px;
+    color: #ff5622;
+    width:1px;
+  }
+
+  tr {
+    display: flex;
+  }
+
+  th {
+    margin-right: 200px;
+  }
+
+  td {
+    width:500px;
+  }
+
   nav {
     background-color: #FF5722;
   }
@@ -53,24 +73,17 @@ body {
     height: auto;
   }
 
-  /*@media screen and ( max-width: 1024px ) {
-    img.header-img { width: 100%; }
-  }
-  @media screen and ( min-width: 1025px) {
-    img.header-img { width: 920px;}
-  }
-    img.header-img { height: auto; }*/
-
     .btn {
-      background-color: blue;
+      background-color:#FF5722;
+      margin-bottom: 20px;
     }
 
     .btn:hover {
-      background-color: rgba(0, 81, 255, 0.228);
+      background-color: #ff56222e;
     }
 
     .btn:focus {
-      background-color: rgba(0, 81, 255, 0.611);
+      background-color: #ff562280;
     }
 
     .black-text {
@@ -110,3 +123,32 @@ body {
     .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
       color:#FF5722;
     }
+
+    div.card-action {
+      display: flex;
+      justify-content: center;
+    }
+    .card-panel {
+      display: flex;
+      justify-content: center;
+    }
+
+    .card {
+      display: flex;
+      justify-content: center;
+      box-shadow: none;
+      
+    }
+
+    img.responsive-img {
+      max-width: 50%;
+      max-height: 30%;
+    }
+
+    .card-content {
+      padding: 12px;
+      box-shadow: black;
+    }
+
+    
+   
