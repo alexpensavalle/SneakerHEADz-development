@@ -14,9 +14,6 @@ S3_BASE_URL = 'https://s3.us-east-2.amazonaws.com/'
 BUCKET = 'catcollector-sei-9-cl'
 
 # Create your views here.
-def home(request):
-  return render(request, 'base.html')
-
 def about(request):
   return render(request, 'about.html')
 

@@ -1,29 +1,34 @@
-# SneakerHEADz
+<img width="1280" alt="Screen Shot 2020-09-25 at 12 29 02 AM" src="https://i.imgur.com/yKJ0BuQ.png">
+
 SneakerHEADz is an app designed to allow shoe enthusiasts to add and view a collection of sneakers.
 Whether it's to show the some drip or trade for chip, Sneakerheadz is the community to be in!
 
 # Screenshots
-* Login <img width="1280" alt="Screen Shot 2020-09-25 at 12 29 02 AM" src="https://user-images.githubusercontent.com/68159937/94229871-4acab600-fec6-11ea-9f40-cc47d92dcaa3.png">
+Login Screen<img width="1280" alt="Screen Shot 2020-09-25 at 12 29 02 AM" src="https://i.imgur.com/j0SDBJJ.png">
 
-* About Us! <img width="1270" alt="Screen Shot 2020-09-25 at 12 28 50 AM" src="https://user-images.githubusercontent.com/68159937/94229952-7a79be00-fec6-11ea-88dd-e3e1e7275dbf.png">
+Add your Collection! <img width="1270" alt="Screen Shot 2020-09-25 at 12 28 50 AM" src="https://i.imgur.com/t0QXuWw.png">
 
-* Index 
-<img width="486" alt="Screen Shot 2020-09-25 at 12 28 12 AM" src="https://user-images.githubusercontent.com/68159937/94230018-a72dd580-fec6-11ea-9ba0-8e6347a4ef10.png">
+Index 
+<img width="486" alt="Screen Shot 2020-09-25 at 12 28 12 AM" src="https://i.imgur.com/Lp3SIPd.png">
 
-# Technologies used: 
+# Technologies 
+
 * Python3
 * Django
 * CSS
-* javaScript
+* JavaScript
 * HTML
+* AWS S3
 
-# Getting started
-* App: https://sneaker-headz.herokuapp.com/accounts/login/
-* Trello: https://trello.com/b/ot3kFexa/sneakerheads
-* Pitch-deck: https://docs.google.com/presentation/d/1eBPZIYdx3CHkO5hTKKKs1E6U38gyn1tzu4gLjEx6h0o/edit?usp=sharing
+# Getting Started
+[App](https://sneaker-headz.herokuapp.com/accounts/login/)
+
+[Trello](https://trello.com/b/ot3kFexa/sneakerheads)
+
+[Pitch-deck](https://docs.google.com/presentation/d/1eBPZIYdx3CHkO5hTKKKs1E6U38gyn1tzu4gLjEx6h0o/edit?usp=sharing)
 
 
-# Next steps and future planning: 
-We will continue to update CSS. Possibly adding a direct messaging system. 
+# Next Steps: 
+CSS styling will continue to be updated. A direct messaging system between users will be incorporated soon.
 
 
