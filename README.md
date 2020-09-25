@@ -10,7 +10,14 @@ Whether it's to show the some drip or trade for chip, Sneakerheadz is the commun
 * Index 
 <img width="486" alt="Screen Shot 2020-09-25 at 12 28 12 AM" src="https://user-images.githubusercontent.com/68159937/94230018-a72dd580-fec6-11ea-9ba0-8e6347a4ef10.png">
 
-# Link to SneakerHEADz app and Trello
+# Technologies used: 
+* Python3
+* Django
+* CSS
+* javaScript
+* HTML
+
+# Getting started
 * App: https://sneaker-headz.herokuapp.com/accounts/login/
 * Trello: https://trello.com/b/ot3kFexa/sneakerheads
 
