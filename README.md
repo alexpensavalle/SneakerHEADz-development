@@ -20,6 +20,8 @@ Whether it's to show the some drip or trade for chip, Sneakerheadz is the commun
 # Getting started
 * App: https://sneaker-headz.herokuapp.com/accounts/login/
 * Trello: https://trello.com/b/ot3kFexa/sneakerheads
+* Pitch-deck: https://docs.google.com/presentation/d/1eBPZIYdx3CHkO5hTKKKs1E6U38gyn1tzu4gLjEx6h0o/edit?usp=sharing
+
 
 # Next steps and future planning: 
 We will continue to update CSS. Possibly adding a direct messaging system. 
