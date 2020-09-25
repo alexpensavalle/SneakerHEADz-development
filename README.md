@@ -6,9 +6,9 @@ Whether it's to show the some drip or trade for chip, Sneakerheadz is the commun
 # Screenshots
 Login Screen <img width="1280" alt="Screen Shot 2020-09-25 at 12 29 02 AM" src="https://i.imgur.com/j0SDBJJ.png">
 
-Add your Collection! <img width="1270" alt="Screen Shot 2020-09-25 at 12 28 50 AM" src="https://i.imgur.com/t0QXuWw.png">
+Add your Collection! <img width="1280" alt="Screen Shot 2020-09-25 at 12 28 50 AM" src="https://i.imgur.com/t0QXuWw.png">
 
-Index <img width="486" alt="Screen Shot 2020-09-25 at 12 28 12 AM" src="https://i.imgur.com/Lp3SIPd.png">
+Index <img width="1280" alt="Screen Shot 2020-09-25 at 12 28 12 AM" src="https://i.imgur.com/Lp3SIPd.png">
 
 # Technologies 
 
