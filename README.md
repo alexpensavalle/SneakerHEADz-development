@@ -28,6 +28,6 @@ Index <img width="1280" alt="Screen Shot 2020-09-25 at 12 28 12 AM" src="https:/
 
 
 # Next Steps: 
-CSS styling will continue to be updated. A direct messaging system between users will be incorporated soon.
+CSS styling will continue to be updated. 
 
 
